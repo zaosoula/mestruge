@@ -27,8 +27,8 @@
 <section class="py-5 bg-light" id="next">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">
-        <img src="<?php $__('ladyofvictoriesSectionWelcomeImageUrl'); ?>" alt="<?php $__('ladyofvictoriesSectionWelcomeImageAlt'); ?>" class="img-fluid rounded">
+      <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5 justify-content-center d-flex" data-aos="fade-up">
+        <img src="<?php $__('ladyofvictoriesSectionWelcomeImageUrl'); ?>" alt="<?php $__('ladyofvictoriesSectionWelcomeImageAlt'); ?>" class="img-fluid rounded mx-auto" style="height: calc(100vh - 150px); max-height: 600px">
       </div>
       <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
         <h2 class="heading"><?php $__('ladyofvictoriesSectionWelcomeTitle'); ?></h2>

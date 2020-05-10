@@ -26,6 +26,7 @@
 
   "or": "or",
 
+  "menuBackgroud": "%baseurl%/assets/images/menu_background.jpg",
 
   "#priceSeasonLowDaterange": "11-01to04-30;12-01to12-31",
   "#priceSeasonMidDaterange": "05-01to06-01;09-01to09-30",
@@ -352,18 +353,38 @@
 
   "reviewsSectionTestimonialTitle": "People Says",
 
-  "#reviewsSectionTestimonialCount": 2,
+  "#reviewsSectionTestimonialCount": 6,
   "#reviewsSectionTestimonialScoreMax": 5,
 
-  "reviewsSectionTestimonialItem1Text": "Dear Solange and Didier, thank you so much for sharing you little piece of heaven witih us ! We will miss your lovely home, your kindness and the dogs. We wish you all the luck in the world and hope to see you again one day.",
-  "reviewsSectionTestimonialItem1Author": "Sarah, Andy and Familly",
-  "reviewsSectionTestimonialItem1Date": "23 August 2018",
+  "reviewsSectionTestimonialItem1Text": "Dear Didier and Solange, many thanks for the use of your gorgeous home and Gites and facilities over the past 16 days. This is a truly lovely property, comfortable, clean well quipped and so peaceful. I will have to share up my memories until my next French trip ! Solange, thanks for your friendliness and attentiveness to all our needs… toys for pool, fans, etc… your are a gracious hostess. And to the four dogs who adopted us… I have two children heartbroken to leave them. But we have cherished photos.",
+  "reviewsSectionTestimonialItem1Author": "Robert and Family",
+  "reviewsSectionTestimonialItem1Date": "July 2018",
   "reviewsSectionTestimonialItem1Score": 5,
 
-  "reviewsSectionTestimonialItem2Text": "Dear Didier and Solange, many thanks for the use of your gorgeous home and Gites and facilities over the past 16 days. This is a truly lovely property, comfortable, clean well quipped and so peaceful. I will have to share up my memories until my next French trip ! Solange, thanks for your friendliness and attentiveness to all our needs… toys for pool, fans, etc… your are a gracious hostess. And to the four dogs who adopted us… I have two children heartbroken to leave them. But we have cherished photos.",
-  "reviewsSectionTestimonialItem2Author": "Robert and Family",
-  "reviewsSectionTestimonialItem2Date": "13 July 2018",
+  "reviewsSectionTestimonialItem2Text": "Dear Solange and Didier, thank you so much for sharing you little piece of heaven witih us ! We will miss your lovely home, your kindness and the dogs. We wish you all the luck in the world and hope to see you again one day.",
+  "reviewsSectionTestimonialItem2Author": "Sarah, Andy and Familly",
+  "reviewsSectionTestimonialItem2Date": "August 2018",
   "reviewsSectionTestimonialItem2Score": 5,
+
+  "reviewsSectionTestimonialItem3Text": "Het was fantastisch, paradijs op aarde... Een magnifiek uitzicht waar je geen genoeg van krijgt! De eigenaars namen over en het is hun eerste zomer. Maar ze doen het zo goed! Alles was aanwezig, niet te kort. Zwembad en poolhouse zijn fantastisch. Er is zeer veel te bezichtigen in de ruime omgeving: kastelen, dorpen, natuur, ... voor elk wat wils. Na 7 nachten hebben we niet het gevoel dat we daar al 'klaar' zijn, dus we hopen terug te keren!",
+  "reviewsSectionTestimonialItem3Author": "Sofie",
+  "reviewsSectionTestimonialItem3Date": "July 2019",
+  "reviewsSectionTestimonialItem3Score": 5,
+
+  "reviewsSectionTestimonialItem4Text": "What a wonderful location and beautiful, well equipped house and facilities. Solange, you have made us feel so welcome and at home here. We have had a wonderful time. We hope to visit again soon.",
+  "reviewsSectionTestimonialItem4Author": "Craig and Carmel",
+  "reviewsSectionTestimonialItem4Date": "July 2019",
+  "reviewsSectionTestimonialItem4Score": 5,
+
+  "reviewsSectionTestimonialItem5Text": "Beautiful place to stay, we had enjoy everything we needed. The pool was ideal for us and we were lucky to have it for ourselves, both children said it was the best part of the holiday. Lovely sitting, our in evening seems the sunset and beautiful views. All our needs have been covered for us , we have been made very welcome.<br>Thank you for a wonderful week",
+  "reviewsSectionTestimonialItem5Author": "Graham and Claire",
+  "reviewsSectionTestimonialItem5Date": "August 2019",
+  "reviewsSectionTestimonialItem5Score": 5,
+
+  "reviewsSectionTestimonialItem6Text": "Merci pour votre accueil chaleureux et vos gentilles attentions. Nous avons apprécié votre gîte très confortable et très bien équipé. Situé dans un cadre magnifique nous avons aimé ce séjour pour fêter cette nouvelle année. Dommage que nous n’ayons pas pu profiter de la piscine. Peut-être une prochaine fois.",
+  "reviewsSectionTestimonialItem6Author": "Patricia",
+  "reviewsSectionTestimonialItem6Date": "January 2020",
+  "reviewsSectionTestimonialItem6Score": 5,
 
 
   "activitiesHeroBackground": "{homeHeroBackground}",
@@ -480,7 +501,7 @@
   "directionCoords": "Latitude 43.160767 <br> Longitude 2.15339",
   "directionByCarLabel": "By car",
   "directionByCarFrom1Label": "From Narbonne:",
-  "directionByCarFrom1": "In Narbonne you take the direction Toulouse A61. Take the Mazamet exit (exit 22) and follow the signs \"SALVAZA\" which is Carcassonne airport until you see a sign indicating Montreal.",
+  "directionByCarFrom1": "In Narbonne you take the direction Toulouse A61. Take the Bram exit (exit 22). Once in Bram, just follow the signs to Montreal.",
   "directionByCarFrom2Label": "From Toulouse:",
   "directionByCarFrom2": "From Toulouse, take the A61 towards Carcassonne. Take the Bram exit (exit 22). Once in Bram, just follow the signs to Montreal.",
   "directionByPlaneLabel": "By plane",
@@ -495,7 +516,7 @@
   "ladyofvictoriesSectionWelcomeImageUrl": "%baseurl%/assets/images/photos/ladyofvictories/1.jpg",
   "ladyofvictoriesSectionWelcomeImageAlt": "{ladyofvictoriesHeroTitle}",
   "ladyofvictoriesSectionWelcomeTitle": "{ladyofvictoriesHeroTitle}",
-  "ladyofvictoriesSectionWelcomeText": "Our Mother of Victories is a little statue we found at the edge of a window nestled under the roof protecting Mestrugue.<br>Regarding the History, in year 1614, the King Louis XIII pronounced the wish in a church of Aubervilliers to build a church in Paris dedicated to our Holy Mother if he wins a military victory against Protestants. Granted in 1628 following the siege of La Rochelle, he decided to build the church for our Lady of Victories.<br>We asked a friend to write an icon of our Lady of Victories.",
+  "ladyofvictoriesSectionWelcomeText": "Our Mother of Victories is a little statue we found at the edge of a window nestled under the roof protecting Mestrugue.<br>Regarding the History, in year 1614, the King Louis XIII pronounced the wish in a church of Aubervilliers to build a church in Paris dedicated to our Holy Mother if he wins a military victory against Protestants. Granted in 1628 following the siege of La Rochelle, he decided to build the church for our Lady of Victories.<br>We asked a friend to write an icon of our Lady of Victories. We set the statue back at his place from where it continues to protect Mestrugue.",
   "ladyofvictoriesSectionWelcomeButtonPrimary": "Learn More",
 
   "ladyofvictoriesSectionPhotosTitle": "Photos",

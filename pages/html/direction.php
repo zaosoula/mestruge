@@ -32,7 +32,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7" data-aos="fade-up">
-        <p class="text-muted text-small"><?php $__("directionItineraryNotice"); ?></p>
+        <!-- <p class="text-muted text-small"><?php $__("directionItineraryNotice"); ?></p> -->
 
         <div id="directionMap" class="embed-responsive embed-responsive-1by1" style="max-height: calc(100vh - 100px)">
 

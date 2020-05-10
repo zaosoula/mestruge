@@ -338,6 +338,14 @@
 
   "reviewsSectionTestimonialTitle": "Les Gens Disent",
 
+  "reviewsSectionTestimonialItem1Date": "Juillet 2018",
+  "reviewsSectionTestimonialItem2Date": "Août 2018",
+  "reviewsSectionTestimonialItem3Date": "Juillet 2019",
+  "reviewsSectionTestimonialItem4Date": "Juillet 2019",
+  "reviewsSectionTestimonialItem5Date": "Août 2019",
+  "reviewsSectionTestimonialItem6Date": "Janvier 2020",
+
+
   "activitiesHeroBackground": "{homeHeroBackground}",
   "activitiesHeroTitle": "Activités",
   "activitiesLabelTouristOffice": "Office du tourisme:",
@@ -448,7 +456,7 @@
   "directionCoords": "Latitude 43.160767 <br> Longitude 2.15339",
   "directionByCarLabel": "En voiture",
   "directionByCarFrom1Label": "Par Narbonne:",
-  "directionByCarFrom1": "A Narbonne vous prenez la direction Toulouse A61. Prenez la sortie Mazamet (sortie 22) et suivez les panneaux «SALVAZA» qui est l'aéroport de Carcassonne jusqu'à ce que vous voyiez un panneau indiquant Montréal.",
+  "directionByCarFrom1": "A Narbonne vous prenez la direction Toulouse A61. Prendre la sortie Bram (sortie 22). Une fois à Bram, il vous suffit de suivre les panneaux vers Montréal.",
   "directionByCarFrom2Label": "Par Toulouse:",
   "directionByCarFrom2": "De Toulouse, vous prenez l'A61 en direction de Carcassonne. Prendre la sortie Bram (sortie 22). Une fois à Bram, il vous suffit de suivre les panneaux vers Montréal.",
   "directionByPlaneLabel": "En avion",

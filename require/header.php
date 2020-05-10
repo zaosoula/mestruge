@@ -44,8 +44,7 @@
 
 
         <!-- END menu-toggle -->
-
-        <div class="site-navbar js-site-navbar">
+        <div class="site-navbar js-site-navbar" style='background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(<?php $__("menuBackgroud"); ?>);'>
           <nav role="navigation">
             <div class="container">
               <div class="row full-height">
