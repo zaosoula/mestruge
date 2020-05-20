@@ -31,22 +31,45 @@
 <section class="section contact-section" id="next">
   <div class="container">
     <div class="row">
-      <div class="col-md-7" data-aos="fade-up">
+      <div class="col-12 col-md-7" data-aos="fade-up">
         <!-- <p class="text-muted text-small"><?php $__("directionItineraryNotice"); ?></p> -->
 
         <div id="directionMap" class="embed-responsive embed-responsive-1by1" style="max-height: calc(100vh - 100px)">
 
         </div>
 
+        <div class="contact-info d-md-none mt-5">
+          <p><span class="d-block"><?php $__("directionCoordsLabel"); ?></span> <span class="text-black text-left"><?php $__("directionCoords"); ?></span></p>
+          <hr>
+          <p><span class="d-block"><?php $__("directionByCarLabel"); ?></span> <span class="d-block"><?php $__("directionByCarFrom1Label"); ?></span> <span class="text-black text-left"><?php $__("directionByCarFrom1"); ?></span></p>
+          <p><span class="d-block"><?php $__("directionByCarFrom2Label"); ?></span> <span class="text-black text-left"><?php $__("directionByCarFrom2"); ?></span>
+          </p>
+          <hr>
+          <p><span class="d-block"><?php $__("directionByPlaneLabel"); ?></span> <span class="text-black text-left"><?php $__("directionByPlane"); ?></span></p>
+          <p><span class="d-block"><?php $__("directionByPlaneFrom1Label"); ?></span> <span class="text-black text-left"><?php $__("directionByPlaneFrom1"); ?></span></p>
+          <hr>
+          <p class="pb-0 mb-0"><span class="d-block"><?php $__("directionItineraryTitle"); ?></span></p>
+          <ul class="text-black text-left">
+            <?php $__("directionItinerarySteps"); ?>
+          </ul>
+          <hr>
 
-        <div class="contact-info mt-5">
+          <p><span class="d-block"><?php $__("directionAddressLabel"); ?></span> <span class="text-black"> <?php $__("directionAddress"); ?></span></p>
+          <p><span class="d-block"><?php $__("directionPhoneLabel"); ?></span> <span class="text-black"> <?php $__("directionPhone"); ?></span></p>
+          <p><span class="d-block"><?php $__("directionEmailLabel"); ?></span> <span class="text-black"> <?php $__("directionEmail"); ?></span></p>
+          <hr>
+
+
+          </div>
+        <div class="contact-info mt-5 d-none d-md-block">
           <p class="pb-0 mb-0"><span class="d-block"><?php $__("directionItineraryTitle"); ?></span></p>
           <ul class="text-black text-left">
             <?php $__("directionItinerarySteps"); ?>
           </ul>
         </div>
+
       </div>
-      <div class="col-md-5" data-aos="fade-up">
+      <div class="col-md-5 d-none d-md-block" data-aos="fade-up">
         <div class="row">
           <div class="col-md-10 ml-auto contact-info">
             <p><span class="d-block"><?php $__("directionAddressLabel"); ?></span> <span class="text-black"> <?php $__("directionAddress"); ?></span></p>

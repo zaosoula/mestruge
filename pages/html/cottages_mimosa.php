@@ -26,7 +26,7 @@
   include('./require/modules/calltoactionHero.php');
 ?> -->
 
-<section class="py-5 bg-light" id="next">
+<section class="section py-5 bg-light" id="next">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">
@@ -43,7 +43,7 @@
 </section>
 
 <section class="section">
-  <div class="container">
+  <div class="container ">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade" id="learnmore"><?php $__("mimosaSectionDetailsSubGroundTitle"); ?></h2>
@@ -59,8 +59,9 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
+</section>
+<section class="section">
+  <div class="container ">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade"><?php $__("mimosaSectionDetailsSubFirstFloorTitle"); ?></h2>
@@ -76,8 +77,9 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
+</section>
+<section class="section">
+  <div class="container ">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade"><?php $__("mimosaSectionDetailsSubSecondFloorTitle"); ?></h2>
@@ -95,8 +97,9 @@
     <?php } ?>
     </div>
   </div>
-
-  <div class="container">
+</section>
+<section class="section">
+  <div class="container ">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade"><?php $__("mimosaSectionDetailsSubOutdoorTitle"); ?></h2>

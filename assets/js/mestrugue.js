@@ -46,4 +46,5 @@
 	$('.site-navbar .menu li').each(function(){
 		if( $(this).find('a').attr('href') == location.href) $(this).addClass("active");
 	});
+
 })(jQuery);

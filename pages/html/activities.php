@@ -28,7 +28,7 @@
 </section>
 <!-- END section -->
 
-<section class="section bg-light" id="next" >
+<section class="section bg-light" id="next">
   <div class="container" data-aos="fade-up">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
@@ -53,7 +53,8 @@
         <div class="media media-custom d-block h-100">
           <a class="mb-3 d-block"><img src="<?php echo BaseUrl; ?>/assets/images/activities/cavayere.jpg" class="img-fluid"></a>
           <div class="media-body">
-            <h2 class=""><a old-href="https://www.tripadvisor.fr/Attraction_Review-g187151-d3454160-Reviews-Lac_de_la_Cavayere-Carcassonne_Center_Carcassonne_Aude_Occitanie.html?m=19905" target="_blank"><?php $__("activitiesWaterItem2Title") ?></a></h2>
+            <h2 class=""><a old-href="https://www.tripadvisor.fr/Attraction_Review-g187151-d3454160-Reviews-Lac_de_la_Cavayere-Carcassonne_Center_Carcassonne_Aude_Occitanie.html?m=19905" target="_blank"><?php $__("activitiesWaterItem2Title") ?></a>
+            </h2>
           </div>
         </div>
       </div>
@@ -100,9 +101,6 @@
       </div>
     </div>
 
-  </div>
-
-  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading"><?php $__('activitiesCitiesTitle'); ?></h2>
@@ -200,16 +198,13 @@
       </div>
     </div>
 
-  </div>
-
-  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading"><?php $__('activitiesHolyTitle'); ?></h2>
         <p class="text-justify">&nbsp;</p>
       </div>
     </div>
-    <div class="row  justify-content-center" >
+    <div class="row  justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5">
 
         <div class="media media-custom d-block h-100">
@@ -241,23 +236,22 @@
         <div class="media media-custom d-block h-100">
           <a class="mb-3 d-block"><img src="<?php echo BaseUrl; ?>/assets/images/activities/collegiale-montreal.jpg" class="img-fluid"></a>
           <div class="media-body">
-            <h2 class=""><a old-href="https://www.tripadvisor.fr/Attraction_Review-g1202981-d10190688-Reviews-Collegiate_Church_of_Notre_Dame_in_Montreal-Montreal_Yonne_Bourgogne_Franche_Co.html" target="_blank"><?php $__("activitiesHolyItem3Title"); ?></a></h2>
+            <h2 class=""><a old-href="https://www.tripadvisor.fr/Attraction_Review-g1202981-d10190688-Reviews-Collegiate_Church_of_Notre_Dame_in_Montreal-Montreal_Yonne_Bourgogne_Franche_Co.html"
+                target="_blank"><?php $__("activitiesHolyItem3Title"); ?></a></h2>
           </div>
         </div>
 
       </div>
     </div>
 
-  </div>
 
-  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading"><?php $__('activitiesNatureTitle'); ?></h2>
         <p class="text-justify">&nbsp;</p>
       </div>
     </div>
-    <div class="row  justify-content-center" >
+    <div class="row  justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5">
 
         <div class="media media-custom d-block h-100">
@@ -273,16 +267,13 @@
       </div>
     </div>
 
-  </div>
-
-  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading"><?php $__('activitiesAnimalsTitle'); ?></h2>
         <p class="text-justify">&nbsp;</p>
       </div>
     </div>
-    <div class="row  justify-content-center" >
+    <div class="row  justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5">
 
         <div class="media media-custom d-block h-100">
@@ -311,16 +302,13 @@
       </div>
     </div>
 
-  </div>
-
-  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading"><?php $__('activitiesWineryTitle'); ?></h2>
         <p class="text-justify">&nbsp;</p>
       </div>
     </div>
-    <div class="row  justify-content-center" >
+    <div class="row  justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5">
         <div class="media media-custom d-block h-100">
           <a class="mb-3 d-block"><img src="<?php echo BaseUrl; ?>/assets/images/activities/domaine-fort.jpg" class="img-fluid"></a>
@@ -365,16 +353,13 @@
 
     </div>
 
-  </div>
-
-  <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading"><?php $__('activitiesCyclingTitle'); ?></h2>
         <p class="text-justify">&nbsp;</p>
       </div>
     </div>
-    <div class="row  justify-content-center" >
+    <div class="row  justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5">
 
         <div class="media media-custom d-block h-100">
@@ -386,9 +371,7 @@
 
       </div>
     </div>
-
   </div>
-
 </section>
 <?php
   include('./require/modules/calltoaction.php');

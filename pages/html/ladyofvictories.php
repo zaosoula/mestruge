@@ -1,4 +1,4 @@
-<section class="site-hero inner-page overlay" style="background-image: url(<?php $__('ladyofvictoriesHeroBackground'); ?>)" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-400">
+<section class="site-hero inner-page overlay" style="background-image: url(<?php $__('ladyofvictoriesHeroBackground'); ?>)" data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="row site-hero-inner justify-content-center align-items-center">
       <div class="col-md-10 text-center" data-aos="fade">
@@ -24,7 +24,7 @@
   include('./require/modules/calltoactionHero.php');
 ?> -->
 
-<section class="py-5 bg-light" id="next">
+<section class="section py-5 bg-light" id="next">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5 justify-content-center d-flex" data-aos="fade-up">

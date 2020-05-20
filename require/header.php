@@ -1,7 +1,10 @@
 <header class="site-header js-site-header">
   <div class="container-fluid">
     <div class="row align-items-center">
-      <div class="col-6 col-lg-4 site-logo" data-aos="fade"><a href="<?php echo BaseUrl;?>"><?php $__("siteName"); ?></a></div>
+      <div class="col-6 col-lg-4 site-logo" data-aos="fade">
+        <a class="d-none d-lg-block" href="<?php echo BaseUrl;?>"><?php $__("siteName"); ?></a>
+        <a class="d-lg-none" href="<?php echo BaseUrl;?>"><small><?php $__("siteName"); ?></small></a>
+      </div>
       <div class="col-6 col-lg-8">
 
         <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
@@ -9,8 +12,8 @@
             <span></span>
             <span></span>
         </div>
-        <div class="site-menu-toggle-label" data-aos="fade">Menu</div>
-
+        <div class="site-menu-toggle-label d-none d-lg-block" data-aos="fade">Menu</div>
+        <div class="site-menu-toggle-label d-lg-none" data-aos="fade"><small>Menu</small></div>
         <!-- <div>
           <div class="dropdown site-menu-toggle-lang" data-aos="fade">
             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

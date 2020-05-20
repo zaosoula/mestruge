@@ -21,7 +21,7 @@
   include('./require/modules/calltoactionHero.php');
 ?> -->
 
-<section class="py-5 bg-light" id="next">
+<section class="section py-5 bg-light" id="next">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">

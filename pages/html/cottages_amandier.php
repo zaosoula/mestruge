@@ -27,7 +27,7 @@
 ?> -->
 
 
-<section class="py-5 bg-light" id="next">
+<section class="section py-5 bg-light" id="next">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">
@@ -45,7 +45,7 @@
 
 
 <section class="section">
-  <div class="container">
+  <div class="container ">
     <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading" id="learnmore" data-aos="fade"><?php $__("amandierSectionDetailsSubGroundTitle"); ?></h2>
@@ -61,8 +61,9 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
+</section>
+<section class="section">
+  <div class="container ">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade"><?php $__("amandierSectionDetailsSubFirstFloorTitle"); ?></h2>
@@ -78,8 +79,9 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
+</section>
+<section class="section">
+  <div class="container ">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade"><?php $__("amandierSectionDetailsSubSecondFloorTitle"); ?></h2>
@@ -97,8 +99,9 @@
     <?php } ?>
     </div>
   </div>
-
-  <div class="container">
+</section>
+<section class="section">
+  <div class="container ">
     <div class="row justify-content-center text-center pt-5">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade"><?php $__("amandierSectionDetailsSubOutdoorTitle"); ?></h2>

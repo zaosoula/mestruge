@@ -24,7 +24,7 @@
   include('./require/modules/calltoactionHero.php');
 ?> -->
 
-<section class="py-5 bg-light" id="next">
+<section class="section py-5 bg-light" id="next">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">
@@ -50,10 +50,10 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up">
+        <div class="photo-slider" data-aos="fade-up">
           <?php
           for ($i=1; $i <= $i18n->get("#poolSectionPhotosPicCount"); $i++) {
-            echo '<div class="slider-item">
+            echo '<div>
               <img src="'.$i18n->get("poolSectionPhotosPic".$i."Url").'" alt="'.$i18n->get("poolSectionPhotosPic".$i."Alt").'" class="img-fluid">
             </div>';
           }

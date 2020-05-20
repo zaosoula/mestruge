@@ -22,10 +22,16 @@
     margin:10,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
-    nav:true,
+    nav:false,
+    dots:true,
     autoplayHoverPause: true,
     items: 1,
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
+		autoHeight: false,
+		autoHeightClass: 'owl-height',
+		onInitialized: function() {
+		    $('.slider').trigger('refresh.owl.carousel')
+		}
 	});
 
 

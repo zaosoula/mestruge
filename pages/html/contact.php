@@ -38,7 +38,7 @@
         }
         ?>
 
-        <form action="<?php echo BaseUrl; ?>/request/sendMail.php" id="contactForm" method="post" class="bg-white p-md-5 p-4 mb-5 border">
+        <form action="<?php echo BaseUrl; ?>/request/sendMail.php" id="contactForm" method="post" class="bg-white p-md-3 p-2 mb-5 border" style="border-radius: 5px">
           <div class="row">
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormNameLabel"); ?></label>

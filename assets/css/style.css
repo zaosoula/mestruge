@@ -548,10 +548,6 @@ textarea.form-control {
       outline: none; }
     .owl-carousel.major-caousel .owl-nav .owl-prev.disabled, .owl-carousel.major-caousel .owl-nav .owl-next.disabled {
       color: #dee2e6; }
-  .owl-carousel.major-caousel .owl-nav .owl-prev {
-    left: -60px !important; }
-  .owl-carousel.major-caousel .owl-nav .owl-next {
-    right: -60px !important; }
 
 .owl-carousel.major-caousel .owl-dots {
   bottom: 50px !important; }
