@@ -42,7 +42,7 @@
 
 <section class="section slider-section" id="learnmore">
   <div class="container">
-    <div class="row justify-content-center text-center mb-3">
+    <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade-up"><?php $__('gardenSectionPhotosTitle'); ?></h2>
         <p data-aos="fade-up"><?php $__('gardenSectionPhotosCaption'); ?></p>

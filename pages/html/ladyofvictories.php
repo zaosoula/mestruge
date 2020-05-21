@@ -42,7 +42,7 @@
 
 <section class="section slider-section" id="learnmore">
   <div class="container">
-    <div class="row justify-content-center text-center mb-5">
+    <div class="row justify-content-center text-center">
       <div class="col-md-7">
         <h2 class="heading" data-aos="fade-up"><?php $__('ladyofvictoriesSectionPhotosTitle'); ?></h2>
         <p data-aos="fade-up"><?php $__('ladyofvictoriesSectionPhotosCaption'); ?></p>
@@ -50,10 +50,10 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up">
+        <div class="photo-slider mb-5" data-aos="fade-up">
           <?php
           for ($i=1; $i <= $i18n->get("#ladyofvictoriesSectionPhotosPicCount"); $i++) {
-            echo '<div class="slider-item">
+            echo '<div>
               <img src="'.$i18n->get("ladyofvictoriesSectionPhotosPic".$i."Url").'" alt="'.$i18n->get("ladyofvictoriesSectionPhotosPic".$i."Alt").'" class="img-fluid">
             </div>';
           }

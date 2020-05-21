@@ -3,9 +3,10 @@ var slider = tns({
   items: 1,
   slideBy: 'page',
   gutter: 10,
-  controls: false,
+  controls: true,
   navPosition: "bottom",
   autoHeight: true,
   mouseDrag: true,
-  center: true
+  center: true,
+  controlsText: ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"]
 });
