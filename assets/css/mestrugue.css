@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 #pills-tab li:not(:last-child){
   margin-right: 10px;
 }
