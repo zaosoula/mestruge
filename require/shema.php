@@ -62,3 +62,15 @@
   ]
 }
 </script>
+
+<meta property="og:title" content="Domaine De Mestrugue">
+<meta property="og:url" content="https://www.domaine-de-mestrugue.fr">
+<meta property="og:description" content="<?php echo $i18n->get("metaDescription");?>">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.domaine-de-mestrugue.fr/assets/images/photos/exterieur/5.JPG">
+
+
+<meta name="twitter:card" content="summary_large_image"></meta>
+<meta name="twitter:title" content="Domaine De Mestrugue"></meta>
+<meta name="twitter:description" content="<?php echo $i18n->get("metaDescription");?>"></meta>
+<meta name="twitter:image" content="https://www.domaine-de-mestrugue.fr/assets/images/photos/exterieur/5.JPG"></meta>

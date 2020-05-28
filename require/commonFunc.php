@@ -20,8 +20,10 @@ function secureArray($array_sec){foreach($array_sec as $key=>$value){if(is_array
 
 if(isset($_COOKIE["lang"])){
   $lang = $_COOKIE["lang"];
-}else{
+}elseif (! empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
   $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+}else{
+  $lang = 'en';
 }
 
 $acceptLang = ['fr', 'en'];
