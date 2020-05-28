@@ -1,0 +1,16 @@
+/* TEAM */
+	Developer: Zao Soula
+	Contact: contact [at] zaosoula.fr
+  Github: @zaosoula
+	From: France
+
+/* THANKS */
+
+  Template designer & developer: Colorlib
+  Website: https://colorlib.com/
+
+/* SITE */
+	Last update: 28/05/2020
+	Language: English / French
+	Doctype: HTML5
+	IDE: Atom

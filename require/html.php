@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="<?php echo $i18n->getCurrentLang(); ?>">
 <head>
-
+  <?php require_once('require/shema.php'); ?>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="" />
+<meta name="description" content="<?php echo $i18n->get("metaDescription");?>" />
 <meta name="keywords" content="" />
 <meta name="author" content="" />
 
@@ -32,7 +32,7 @@
 
 <script src="<?php echo BaseUrl?>/assets/js/aos.js"></script>
 
-
+<link type="text/plain" rel="author" href="<?php echo BaseUrl?>/humans.txt" />
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +44,7 @@
 <?php echo $Page->getMeta(); ?>
 
 </head>
-<body id="page-top" class="page-<?php echo $pageName; ?>" lang="<?php echo $i18n->getCurrentLang(); ?>">
+<body id="page-top" class="page-<?php echo $pageName; ?>">
   <script type="text/javascript">
   // aos
   AOS.init({
@@ -69,9 +69,9 @@
   <script src="<?php echo BaseUrl?>/assets/js/jquery.stellar.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 
-<?php
-$i18n->passToJavascript();
-?>
+  <?php
+  $i18n->passToJavascript();
+  ?>
 
   <script src="<?php echo BaseUrl?>/assets/js/main.js"></script>
   <!-- Theme JavaScript -->
