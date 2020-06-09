@@ -26,11 +26,11 @@
 
 <section class="section py-5 bg-light" id="next">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5 justify-content-center d-flex" data-aos="fade-up">
-        <img src="<?php $__('ladyofvictoriesSectionWelcomeImageUrl'); ?>" alt="<?php $__('ladyofvictoriesSectionWelcomeImageAlt'); ?>" class="img-fluid rounded mx-auto" style="height: calc(100vh - 150px); max-height: 600px">
+    <div class="row align-items-center" data-aos="fade-up">
+      <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5 justify-content-center d-flex">
+        <img src="<?php $__('ladyofvictoriesSectionWelcomeImageUrl'); ?>" alt="<?php $__('ladyofvictoriesSectionWelcomeImageAlt'); ?>" class="img-fluid rounded mx-auto" style="height: calc(100vh - 300px); max-height: 600px">
       </div>
-      <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
+      <div class="col-md-12 col-lg-4 order-lg-1">
         <h2 class="heading"><?php $__('ladyofvictoriesSectionWelcomeTitle'); ?></h2>
         <p class="mb-4 text-justify"><?php $__('ladyofvictoriesSectionWelcomeText'); ?></p>
         <p style="white-space: nowrap"><a href="#learnmore" class="btn btn-primary text-white py-2 mr-3 smoothscroll"><?php $__('ladyofvictoriesSectionWelcomeButtonPrimary'); ?></a></p>
