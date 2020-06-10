@@ -43,6 +43,15 @@
 
 <?php echo $Page->getMeta(); ?>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169006833-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-169006833-1');
+</script>
+
 </head>
 <body id="page-top" class="page-<?php echo $pageName; ?>">
   <script type="text/javascript">
