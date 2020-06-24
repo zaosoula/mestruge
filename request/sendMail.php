@@ -1,4 +1,7 @@
 <?php
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
   require_once('../configs/config.php');
 
   require_once('../require/commonFunc.php');
@@ -54,18 +57,20 @@
     return str_replace($bad,"",$string);
   }
 
-  $email_message .= "Name: ".clean_string($name)."\n";
-  $email_message .= "Surname: ".clean_string($surname)."\n";
-  $email_message .= "Phone: ".clean_string($phone)."\n";
-  $email_message .= "Email: ".clean_string($email_from)."\n";
+  $email_message .= "Name: ".html_entity_decode(clean_string($name), ENT_QUOTES)."\n";
+  $email_message .= "Surname: ".html_entity_decode(clean_string($surname), ENT_QUOTES)."\n";
+  $email_message .= "Phone: ".html_entity_decode(clean_string($phone), ENT_QUOTES)."\n";
+  $email_message .= "Email: ".html_entity_decode(clean_string($email_from), ENT_QUOTES)."\n";
   $email_message .= "Check in date: ".clean_string($checkin_date)."\n";
   $email_message .= "Check out date: ".clean_string($checkout_date)."\n";
   $email_message .= "Adults: ".clean_string($adults)."\n";
   $email_message .= "Children: ".clean_string($children)."\n\n";
-  $email_message .= "Messages: \n\n\t".clean_string($notes)."\n";
+  $email_message .= "Messages: \n\n\t".html_entity_decode(clean_string($notes), ENT_QUOTES)."\n";
 
   $headers = "From: contact@domaine-de-mestrugue.fr\r\n".
-  "Reply-To: ".$email_from."\r\n";
+  "Reply-To: ".$email_from."\r\n".
+  "MIME-Version: 1.0\r\n".
+  "Content-type: text/plain; charset=UTF-8\r\n";
 
   if(mail($email_to, $email_subject, $email_message, $headers)){
     header("Location: ".BaseUrl."/contact/success#next");
