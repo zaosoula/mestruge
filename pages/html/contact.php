@@ -121,10 +121,14 @@
             </div>
           </div>
           <div class="row">
+            <div class="col-md-12 mb-4">
+              <div class="g-recaptcha" data-sitekey="6Lfsbs0ZAAAAAFgyiYGslzw_V-QQJ_2mAhOWlym0"></div>
+            </div>
             <div class="col-md-6 form-group">
               <button type="submit" class="btn btn-primary text-white py-3 px-5 font-weight-bold"><?php $__("contactFormSubmit"); ?></button>
             </div>
           </div>
+
 
         </form>
 
@@ -145,3 +149,5 @@
 <?php
   include('./require/modules/calltoaction.php');
 ?>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

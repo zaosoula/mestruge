@@ -25,6 +25,14 @@ $(function(){
       }
     });
 
+    if(grecaptcha.getResponse()==""){
+      errors.push({
+        field: "recaptch",
+        message: "empty"
+      });
+      alert('Merci de vérifier que vous n\'êtes pas un robot');
+    }
+
 
     console.log(errors);
 
