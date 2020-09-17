@@ -77,7 +77,7 @@
               <label for="adults" class="font-weight-bold text-black"><?php $__("contactFormAdultsLabel"); ?></label>
               <div class="field-icon-wrap">
                 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                <select name="adults" id="adults" class="form-control" value="<?php echo $sPOST['persons']; ?>">
+                <select name="adults" id="adults" class="form-control">
                   <option value="1" <?php echo (!empty($sPOST["persons"]) && $sPOST["persons"]=="1")?"selected":null; ?>>1</option>
                   <option value="2" <?php echo (!empty($sPOST["persons"]) && $sPOST["persons"]=="2")?"selected":null; ?>>2</option>
                   <option value="3" <?php echo (!empty($sPOST["persons"]) && $sPOST["persons"]=="3")?"selected":null; ?>>3</option>
