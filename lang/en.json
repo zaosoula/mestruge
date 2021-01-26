@@ -61,7 +61,7 @@
   "homeSectionCottagesColumn1Attribute2": "<i class='fas fa-fw fa-bath'></i> 2 bathrooms",
   "homeSectionCottagesColumn1Attribute3": "<i class='fas fa-fw fa-wifi'></i> WIFI",
   "homeSectionCottagesColumn1Attribute4": "<i class='fas fa-dog'></i> No pets",
-  "homeSectionCottagesColumn1Description": "Sleep 8. The cottage Amandier, a cottage of charm with character, 4 bedrooms & 2 bathrooms is well appointed and spacious. It is equipped with central heating for those who wish to visit us during the winter months. There are two privative terraces, one in front and one at the back of the house where you can enjoy the breathtaking views. This cottage is tastefully decorated, very spacious and has all the facilities to make your stay as comfortable as possible. ",
+  "homeSectionCottagesColumn1Description": "Sleep 8. The cottage Amandier, a cottage of charm with character, 4 bedrooms & 2 bathrooms is well appointed and spacious. It is equipped with central heating for those who wish to visit us during the winter months. There are two privative terraces, one in front and one at the back of the house where you can enjoy the breathtaking views.This cottage is tastefully decorated, very spacious and has all the facilities to make your stay as comfortable as possible.",
   "homeSectionCottagesColumn1ImageAlt": "{homeSectionCottagesColumn1Title}",
   "homeSectionCottagesColumn1ImageUrl": "%baseurl%/assets/images/photos/amandier/5.jpg",
 
@@ -159,32 +159,32 @@
   "amandierSectionButton7p": "7 {or} 8",
   "amandierSectionButtonReserve": "Reserve now",
 
-  "amandierPriceSeasonLow2pPrice": "925€",
+  "amandierPriceSeasonLow2pPrice": "1035€",
   "amandierPriceSeasonLow2pPricePeriod": "per week",
-  "amandierPriceSeasonMid2pPrice": "1080€",
+  "amandierPriceSeasonMid2pPrice": "1175€",
   "amandierPriceSeasonMid2pPricePeriod": "per week",
   "amandierPriceSeasonHigh2pPrice": "",
   "amandierPriceSeasonHigh2pPricePeriod": "Need to be more",
 
-  "amandierPriceSeasonLow3pPrice": "925€",
+  "amandierPriceSeasonLow3pPrice": "1100€",
   "amandierPriceSeasonLow3pPricePeriod": "per week",
-  "amandierPriceSeasonMid3pPrice": "1080€",
+  "amandierPriceSeasonMid3pPrice": "1250€",
   "amandierPriceSeasonMid3pPricePeriod": "per week",
-  "amandierPriceSeasonHigh3pPrice": "1315€",
+  "amandierPriceSeasonHigh3pPrice": "1470€",
   "amandierPriceSeasonHigh3pPricePeriod": "per week",
 
-  "amandierPriceSeasonLow5pPrice": "1035€",
+  "amandierPriceSeasonLow5pPrice": "1165€",
   "amandierPriceSeasonLow5pPricePeriod": "per week",
-  "amandierPriceSeasonMid5pPrice": "1215€",
+  "amandierPriceSeasonMid5pPrice": "1320€",
   "amandierPriceSeasonMid5pPricePeriod": "per week",
-  "amandierPriceSeasonHigh5pPrice": "1480€",
+  "amandierPriceSeasonHigh5pPrice": "1555€",
   "amandierPriceSeasonHigh5pPricePeriod": "per week",
 
-  "amandierPriceSeasonLow7pPrice": "1150€",
+  "amandierPriceSeasonLow7pPrice": "1295€",
   "amandierPriceSeasonLow7pPricePeriod": "per week",
-  "amandierPriceSeasonMid7pPrice": "1350€",
+  "amandierPriceSeasonMid7pPrice": "1470€",
   "amandierPriceSeasonMid7pPricePeriod": "per week",
-  "amandierPriceSeasonHigh7pPrice": "1645€",
+  "amandierPriceSeasonHigh7pPrice": "1730€",
   "amandierPriceSeasonHigh7pPricePeriod": "per week",
 
 
@@ -253,25 +253,25 @@
   "mimosaSectionButton5p": "{amandierSectionButton5p}",
   "mimosaSectionButtonReserve": "{amandierSectionButtonReserve}",
 
-  "mimosaPriceSeasonLow2pPrice": "840€",
+  "mimosaPriceSeasonLow2pPrice": "915€",
   "mimosaPriceSeasonLow2pPricePeriod": "per week",
-  "mimosaPriceSeasonMid2pPrice": "980€",
+  "mimosaPriceSeasonMid2pPrice": "1035€",
   "mimosaPriceSeasonMid2pPricePeriod": "per week",
   "mimosaPriceSeasonHigh2pPrice": "",
   "mimosaPriceSeasonHigh2pPricePeriod": "Need to be more",
 
-  "mimosaPriceSeasonLow3pPrice": "840€",
+  "mimosaPriceSeasonLow3pPrice": "965€",
   "mimosaPriceSeasonLow3pPricePeriod": "per week",
-  "mimosaPriceSeasonMid3pPrice": "980€",
+  "mimosaPriceSeasonMid3pPrice": "1095€",
   "mimosaPriceSeasonMid3pPricePeriod": "per week",
-  "mimosaPriceSeasonHigh3pPrice": "1215€",
+  "mimosaPriceSeasonHigh3pPrice": "1290€",
   "mimosaPriceSeasonHigh3pPricePeriod": "per week",
 
-  "mimosaPriceSeasonLow5pPrice": "950€",
+  "mimosaPriceSeasonLow5pPrice": "1075€",
   "mimosaPriceSeasonLow5pPricePeriod": "per week",
-  "mimosaPriceSeasonMid5pPrice": "1100€",
+  "mimosaPriceSeasonMid5pPrice": "1220€",
   "mimosaPriceSeasonMid5pPricePeriod": "per week",
-  "mimosaPriceSeasonHigh5pPrice": "1365€",
+  "mimosaPriceSeasonHigh5pPrice": "1435€",
   "mimosaPriceSeasonHigh5pPricePeriod": "per week",
 
 

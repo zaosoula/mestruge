@@ -49,7 +49,7 @@
   "homeSectionCottagesColumn1Attribute2": "<i class='fas fa-fw fa-bath'></i> 2 salles de bains",
   "homeSectionCottagesColumn1Attribute3": "<i class='fas fa-fw fa-wifi'></i> WIFI",
   "homeSectionCottagesColumn1Attribute4": "<i class='fas fa-dog'></i> Pas d'animaux",
-  "homeSectionCottagesColumn1Description": "Amandier est un gîte de charme et caractère d’une capacité de 8 personnes, 4 chambres et 2 salles de bain, bien aménagé et spacieux. Il est équipé du chauffage central pour ceux qui voudraient venir nous visiter durant les mois d’hiver. Il a deux terrasses privatives, l’une devant le gîte et l’autre derrière où vous pourrez passer de charmantes soirées. Le gîte est décoré avec goût et propose tout ce qui est nécessaire pour rendre votre séjour aussi confortable que possible. ",
+  "homeSectionCottagesColumn1Description": "Amandier est un gîte de charme et caractère d’une capacité de 8 personnes, 4 chambres et 2 salles de bain, bien aménagé et spacieux. Il est équipé du chauffage central pour ceux qui voudraient venir nous visiter durant les mois d’hiver. Il a deux terrasses privatives, l’une devant le gîte et l’autre derrière où vous pourrez passer de charmantes soirées. Le gîte est décoré avec goût et propose tout ce qui est nécessaire pour rendre votre séjour aussi confortable que possible.",
   "homeSectionCottagesColumn1ImageAlt": "{homeSectionCottagesColumn1Title}",
   "homeSectionCottagesColumn1ImageUrl": "%baseurl%/assets/images/photos/amandier/5.jpg",
 
@@ -142,32 +142,21 @@
   "amandierSectionButton7p": "7 {or} 8",
   "amandierSectionButtonReserve": "Réservez maintenant",
 
-  "amandierPriceSeasonLow2pPrice": "925€",
   "amandierPriceSeasonLow2pPricePeriod": "par semaine",
-  "amandierPriceSeasonMid2pPrice": "1080€",
   "amandierPriceSeasonMid2pPricePeriod": "par semaine",
   "amandierPriceSeasonHigh2pPrice": "",
   "amandierPriceSeasonHigh2pPricePeriod": "Il vous faut être plus",
 
-  "amandierPriceSeasonLow3pPrice": "925€",
   "amandierPriceSeasonLow3pPricePeriod": "par semaine",
-  "amandierPriceSeasonMid3pPrice": "1080€",
   "amandierPriceSeasonMid3pPricePeriod": "par semaine",
-  "amandierPriceSeasonHigh3pPrice": "1315€",
   "amandierPriceSeasonHigh3pPricePeriod": "par semaine",
 
-  "amandierPriceSeasonLow5pPrice": "1035€",
   "amandierPriceSeasonLow5pPricePeriod": "par semaine",
-  "amandierPriceSeasonMid5pPrice": "1215€",
   "amandierPriceSeasonMid5pPricePeriod": "par semaine",
-  "amandierPriceSeasonHigh5pPrice": "1480€",
   "amandierPriceSeasonHigh5pPricePeriod": "par semaine",
 
-  "amandierPriceSeasonLow7pPrice": "1150€",
   "amandierPriceSeasonLow7pPricePeriod": "par semaine",
-  "amandierPriceSeasonMid7pPrice": "1350€",
   "amandierPriceSeasonMid7pPricePeriod": "par semaine",
-  "amandierPriceSeasonHigh7pPrice": "1645€",
   "amandierPriceSeasonHigh7pPricePeriod": "par semaine",
 
 
@@ -236,25 +225,17 @@
   "mimosaSectionButton5p": "{amandierSectionButton5p}",
   "mimosaSectionButtonReserve": "{amandierSectionButtonReserve}",
 
-  "mimosaPriceSeasonLow2pPrice": "840€",
   "mimosaPriceSeasonLow2pPricePeriod": "par semaine",
-  "mimosaPriceSeasonMid2pPrice": "980€",
   "mimosaPriceSeasonMid2pPricePeriod": "par semaine",
   "mimosaPriceSeasonHigh2pPrice": "",
   "mimosaPriceSeasonHigh2pPricePeriod": "Il vous faut être plus",
 
-  "mimosaPriceSeasonLow3pPrice": "840€",
   "mimosaPriceSeasonLow3pPricePeriod": "par semaine",
-  "mimosaPriceSeasonMid3pPrice": "980€",
   "mimosaPriceSeasonMid3pPricePeriod": "par semaine",
-  "mimosaPriceSeasonHigh3pPrice": "1215€",
   "mimosaPriceSeasonHigh3pPricePeriod": "par semaine",
 
-  "mimosaPriceSeasonLow5pPrice": "950€",
   "mimosaPriceSeasonLow5pPricePeriod": "par semaine",
-  "mimosaPriceSeasonMid5pPrice": "1100€",
   "mimosaPriceSeasonMid5pPricePeriod": "par semaine",
-  "mimosaPriceSeasonHigh5pPrice": "1365€",
   "mimosaPriceSeasonHigh5pPricePeriod": "par semaine",
 
 
