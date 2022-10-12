@@ -34,7 +34,7 @@
   "#priceSeasonMidDaterange": "05-01to06-01;09-01to09-30",
   "#priceSeasonHighDaterange": "07-01to08-31",
   "priceSeasonCurrentLabel": "<!--Current-->",
-  "priceSeasonNotice": "Low Season : November to April<br>Mid Season : May, June, Sept, Oct, Easter, Christmas, New Year Day<br>High Season : July, August",
+  "priceSeasonNotice": "Low Season: November to April<br>Mid Season: May, June, Sept, Oct, Easter, Christmas, New Year Day<br>High Season: July, August<br>(During low season, at Christmas, at New Year, charge of 10€ per night per cottage for heating)",
   "priceSeasonLowLabel": "Low",
   "priceSeasonMidLabel": "Mid",
   "priceSeasonHighLabel": "High",
@@ -100,7 +100,7 @@
   "amandierSectionWelcomeImageUrl": "%baseurl%/assets/images/photos/amandier/1.jpg",
   "amandierSectionWelcomeImageAlt": "{amandierHeroTitle}",
   "amandierSectionWelcomeTitle": "{amandierHeroTitle}",
-  "amandierSectionWelcomeText": "Sleep 8. The cottage Amandier, a cottage of charm with character, 4 bedrooms & 2 bathrooms is well appointed and spacious. It is equipped with central heating for those who wish to visit us during the winter months. There are two privative terraces, one in front and one at the back of the house where you can enjoy the charming evenings. This cottage is tastefully decorated, very spacious and has all the facilities to make your stay as comfortable as possible.",
+  "amandierSectionWelcomeText": "Sleep 8. The cottage Amandier, a cottage of charm with character, 4 bedrooms & 2 bathrooms is well appointed and spacious. It is equipped with central heating for those who wish to visit us during the winter months. There are two privative terraces, one in front and one at the back of the house where you can enjoy the charming evenings.This cottage is tastefully decorated, very spacious and has all the facilities to make your stay as comfortable as possible.",
   "amandierSectionWelcomeButtonPrimary": "Learn More",
   "amandierSectionWelcomeOr": "{or}",
   "amandierSectionWelcomeButtonSecondary": "See price",
