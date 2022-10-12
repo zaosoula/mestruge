@@ -1,13 +1,25 @@
-Options -indexes +FollowSymlinks
- <IfModule mod_rewrite.c>
+Options -Indexes +FollowSymlinks
+
+<IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # RewriteCond %{HTTPS} off
-  # RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+  # Redirect to https, except localhost
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP_HOST} !=localhost [NC]
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
   RewriteRule ^index(\.html)?(/)?$ index.php?p=home  [L]
   RewriteRule ^contact/success(\.html)?(/)?$ index.php?p=contact&status=success  [L]
   RewriteRule ^cottages?/([a-zA-Z0-9_\-\/]+)$ index.php?p=cottages_$1  [L]
   RewriteRule ^([a-zA-Z0-9_\-\/]+)(\.html)?(/)?$ index.php?p=$1  [L]
-
 </IfModule>
+
+<FilesMatch "^\.">  
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+<FilesMatch "^(.github|class|configs|langs|pages|require)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
