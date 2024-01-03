@@ -20,7 +20,7 @@
 <!-- END section -->
 
 <?php
-  include('./require/modules/calltoactionHero.php');
+  include(__DIR__.'/../../require/modules/calltoactionHero.php');
 ?>
 
 <section class="section">
@@ -71,7 +71,7 @@
 </section>
 
 <?php
-  include('./require/modules/calltoaction.php');
+  include(__DIR__.'/../../require/modules/calltoaction.php');
 ?>
 
 <footer class="section footer-section">

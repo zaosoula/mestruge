@@ -10,7 +10,7 @@
   Website: https://colorlib.com/
 
 /* SITE */
-	Last update: 28/05/2020
+	Last update: 03/01/2023
 	Language: English / French
 	Doctype: HTML5
-	IDE: Atom
+	IDE: VSCode

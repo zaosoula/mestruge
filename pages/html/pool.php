@@ -21,7 +21,7 @@
 <!-- END section -->
 
 <!-- <?php
-  include('./require/modules/calltoactionHero.php');
+  include(__DIR__.'/../../require/modules/calltoactionHero.php');
 ?> -->
 
 <section class="section py-5 bg-light" id="next">
@@ -68,5 +68,5 @@
 <!-- END section -->
 
 <?php
-  include('./require/modules/calltoaction.php');
+  include(__DIR__.'/../../require/modules/calltoaction.php');
 ?>

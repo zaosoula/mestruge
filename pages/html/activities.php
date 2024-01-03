@@ -374,5 +374,5 @@
   </div>
 </section>
 <?php
-  include('./require/modules/calltoaction.php');
+  include(__DIR__.'/../../require/modules/calltoaction.php');
 ?>

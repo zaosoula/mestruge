@@ -32,7 +32,7 @@
 <script src="<?php echo BaseUrl?>/assets/js/aos.js"></script>
 
 <link type="text/plain" rel="author" href="<?php echo BaseUrl?>/humans.txt" />
-<?php require_once('require/shema.php'); ?>
+<?php require_once(__DIR__.'/shema.php'); ?>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,12 +62,12 @@
   </script>
   <?php
     if (in_array("header", $Page->getRequire())) //Check if header need to be include (set in php file of page)
-      require_once('require/header.php');
+      require_once(__DIR__.'/header.php');
 
-    require_once('pages/html/'.$pageName.'.php'); //Load the html file of page
+    require_once(__DIR__.'/../pages/html/'.$pageName.'.php'); //Load the html file of page
 
     if (in_array("footer", $Page->getRequire())) //Check if foter need to be include (set in php file of page)
-      require_once('require/footer.php');
+      require_once(__DIR__.'/footer.php');
   ?>
 
   <script src="<?php echo BaseUrl?>/assets/js/jquery-3.3.1.min.js"></script>
