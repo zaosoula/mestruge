@@ -1,16 +1,5 @@
-$(function(){
+$(() => {
   autosize($('#message'));
-
-  $('#checkin_date').datepicker({
-    'format': window.i18n['#datepickerFormat'],
-    'startDate': 'today',
-    'autoclose': true,
-  });
-  $('#checkout_date').datepicker({
-    'format': window.i18n['#datepickerFormat'],
-    'startDate': 'today',
-    'autoclose': true,
-  });
 
   $('#contactForm').submit(function(e){
     let form = $(this);
@@ -25,14 +14,13 @@ $(function(){
       }
     });
 
-    if(grecaptcha.getResponse()==""){
-      errors.push({
-        field: "recaptch",
-        message: "empty"
-      });
-      alert('Merci de vérifier que vous n\'êtes pas un robot');
-    }
-
+    // if(grecaptcha.getResponse()==""){
+    //   errors.push({
+    //     field: "recaptch",
+    //     message: "empty"
+    //   });
+    //   alert('Merci de vérifier que vous n\'êtes pas un robot');
+    // }
 
     console.log(errors);
 
@@ -42,4 +30,4 @@ $(function(){
       return true;
     }
   });
-})()
+})

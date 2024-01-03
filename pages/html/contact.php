@@ -39,11 +39,26 @@
         ?>
 
         <form action="<?php echo BaseUrl; ?>/request/sendMail.php" id="contactForm" method="post" class="bg-white p-md-3 p-2 mb-5 border" style="border-radius: 5px">
+          
           <div class="row">
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormNameLabel"); ?></label>
               <input type="text" id="name" name="name" placeholder="<?php $__("contactFormNamePlaceholder"); ?>" class="form-control" required>
             </div>
+            <?php 
+            /**
+             * Honey pot begin
+             */
+            ?>
+                <div class="col-md-6 form-group">
+                  <label class="text-black font-weight-bold" for="name"><?php $__("contactFormNameLabel"); ?></label>
+                  <input type="text" id="lastname" name="lastname" placeholder="<?php $__("contactFormNamePlaceholder"); ?>" class="form-control" autocomplete="off" tabindex="-1">
+                </div>
+              <?php 
+            /**
+             * Honey pot end
+             */
+            ?>
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormSurnameLabel"); ?></label>
               <input type="text" id="surname" name="surname" placeholder="<?php $__("contactFormSurnamePlaceholder"); ?>" class="form-control" required>
@@ -57,18 +72,18 @@
             </div>
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="phone"><?php $__("contactFormPhoneLabel"); ?></label>
-              <input type="text" id="phone" name="phone" placeholder="<?php $__("contactFormPhonePlaceholder"); ?>" class="form-control" required>
+              <input type="text" id="phone" name="phone" placeholder="<?php $__("contactFormPhonePlaceholder"); ?>" value="<?php echo (!empty($sPOST["phone"]))?$sPOST["phone"]:null; ?>"class="form-control" required>
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="checkin_date"><?php $__("contactFormCheckinLabel"); ?></label>
-              <input type="text" id="checkin_date" name="checkin_date" placeholder="<?php $__("contactFormCheckinPlaceholder"); ?>" value="<?php echo (!empty($sPOST["checkin_date"]))?$sPOST["checkin_date"]:null; ?>" class="form-control" required>
+              <input type="date" id="checkin_date" name="checkin_date" placeholder="<?php $__("contactFormCheckinPlaceholder"); ?>" value="<?php echo (!empty($sPOST["checkin_date"]))?$sPOST["checkin_date"]:null; ?>" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="checkout_date"><?php $__("contactFormCheckoutLabel"); ?></label>
-              <input type="text" id="checkout_date" name="checkout_date" placeholder="<?php $__("contactFormCheckoutPlaceholder"); ?>"class="form-control" required>
+              <input type="date" id="checkout_date" name="checkout_date" placeholder="<?php $__("contactFormCheckoutPlaceholder"); ?>" value="<?php echo (!empty($sPOST["checkout_date"]))?$sPOST["checkout_date"]:null; ?>" class="form-control" required>
             </div>
           </div>
 
@@ -96,17 +111,16 @@
               <div class="field-icon-wrap">
                 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                 <select name="children" id="children" class="form-control">
-                  <option value="0">0</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10+">10+</option>
+                <option value="1" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="1")?"selected":null; ?>>1</option>
+                  <option value="2" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="2")?"selected":null; ?>>2</option>
+                  <option value="3" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="3")?"selected":null; ?>>3</option>
+                  <option value="4" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="4")?"selected":null; ?>>4</option>
+                  <option value="5" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="5")?"selected":null; ?>>5</option>
+                  <option value="6" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="6")?"selected":null; ?>>6</option>
+                  <option value="7" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="7")?"selected":null; ?>>7</option>
+                  <option value="8" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="8")?"selected":null; ?>>8</option>
+                  <option value="9" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="9")?"selected":null; ?>>9</option>
+                  <option value="10+" <?php echo (!empty($sPOST["children"]) && $sPOST["children"]=="10+")?"selected":null; ?>>10+</option>
                 </select>
               </div>
             </div>
@@ -147,7 +161,7 @@
 </section>
 
 <?php
-  include('./require/modules/calltoaction.php');
+  include(__DIR__.'/../../require/modules/calltoaction.php');
 ?>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>

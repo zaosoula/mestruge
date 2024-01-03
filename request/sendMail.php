@@ -2,11 +2,13 @@
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
-  require_once('../configs/config.php');
+  require_once(__DIR__.'/../configs/config.php');
 
-  require_once('../require/commonFunc.php');
+  require_once(__DIR__.'/../require/commonFunc.php');
+  require_once(__DIR__.'/../require/pushover.php');
 
-  function died($error) {
+  function died($error = "") {
+      sendPushover("$error\n".json_encode($_POST));
       echo "We are very sorry, but there were error(s) found with the form you submitted. ";
       echo "These errors appear below.<br /><br />";
       echo $error."<br /><br />";
@@ -14,8 +16,32 @@
       exit();
   }
 
+  function validateDate($date, $format = 'Y-m-d H:i:s')
+{
+    $d = DateTime::createFromFormat($format, $date);
+    return $d && $d->format($format) == $date;
+}
+
+  function checkDates($checkin_date, $checkout_date) {
+    if(!validateDate($checkin_date, 'Y-m-d') || !validateDate($checkout_date, 'Y-m-d')) {
+      died("Invalid date format");
+    }
+
+    $current_date = new DateTime("now");
+    $checkin_date = new DateTime($checkin_date);
+    $checkout_date = new DateTime($checkout_date);
+
+    if($checkin_date < $current_date) {
+      died("Check in date is in the past");
+    }
+
+    if($checkout_date < $checkin_date) {
+      died("Check out date is before check in date");
+    }
+  }
+
   if(!isset($_POST['g-recaptcha-response'])) {
-    died('We are sorry, but there appears to be a problem with the form you submitted.');
+    died("Captcha is missing");
   }else{
     $url = 'https://www.google.com/recaptcha/api/siteverify';
   	$data = array(
@@ -34,13 +60,14 @@
   	$captcha_success=json_decode($verify);
 
   	if ($captcha_success->success==false) {
-      died(implode(',', $captcha_success->{"error-codes"}));
+      died("Captcha validation failed<br />". implode(',', $captcha_success->{"error-codes"}));
   	} else if ($captcha_success->success==true) {
       $email_to = $i18n->get('contactEmail');
       $email_subject = "[MESTRUGUE] Nouveau message depuis le site";
 
       if(!isset($sPOST['name']) ||
           !isset($sPOST['surname']) ||
+          !isset($sPOST['lastname']) ||
           !isset($sPOST['phone']) ||
           !isset($sPOST['email']) ||
           !isset($sPOST['checkin_date']) ||
@@ -48,10 +75,11 @@
           !isset($sPOST['adults']) ||
           !isset($sPOST['children']) ||
           !isset($sPOST['message'])) {
-          died('We are sorry, but there appears to be a problem with the form you submitted.');
+          died("Fields are missing");
       }
 
       $name = $sPOST['name']; // required
+      $honeypot = $sPOST['lastname']; // Honeypot
       $surname = $sPOST['surname']; // required
       $phone = $sPOST['phone']; // required
       $email_from = $sPOST['email']; // required
@@ -62,6 +90,13 @@
       $notes = $sPOST['message']; // required
 
       $error_message = "";
+
+      /* Bot Detection */
+      if(!empty($honeypot)) {
+        died("Bot detected");
+      }
+
+      checkDates($checkin_date, $checkout_date);
 
       if(strlen($notes) < 1) {
         $error_message .= 'The Message you entered do not appear to be valid.<br />';
@@ -99,5 +134,4 @@
       };
   	}
   }
-
 ?>

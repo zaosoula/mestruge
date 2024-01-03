@@ -331,6 +331,13 @@ and (max-width: 767.98px)  {
   text-align: justify;
 }
 
+.contact-section #contactForm .form-group:has(#lastname){
+  transform: scale(0);
+  opacity: 0.1;
+  pointer-events: none;
+  position: absolute;
+}
+
 .site-header .site-menu-toggle-label, .site-header .site-menu-toggle-lang{
   font-size: 1.2em;
   color: #fff;

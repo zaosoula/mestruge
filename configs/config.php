@@ -26,4 +26,10 @@ if (!defined('BaseUrl'))
 if (!defined('GRecaptchaKey'))
 	define('GRecaptchaKey','.');
 
+if (!defined('PushoverToken'))
+	define('PushoverToken','anbgazrzu6as1t6wnjovnsz11akzfd');
+
+if (!defined('PushoverUseKey'))
+	define('PushoverUseKey','ucakdt5w4ugpsipvxv4nu4nscwfhmk');
+
 ?>
