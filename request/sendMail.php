@@ -8,7 +8,7 @@
   require_once(__DIR__.'/../require/pushover.php');
 
   function died($error = "") {
-      sendPushover("$error\n".json_encode($_POST));
+      sendPushover("$error\n".json_encode($_POST), "Error");
       echo "We are very sorry, but there were error(s) found with the form you submitted. ";
       echo "These errors appear below.<br /><br />";
       echo $error."<br /><br />";
@@ -130,6 +130,7 @@
       "Content-type: text/plain; charset=UTF-8\r\n";
 
       if(mail($email_to, $email_subject, $email_message, $headers)){
+        sendPushover("Message sent to contact email\n".json_encode($_POST), "Success");
         header("Location: ".BaseUrl."/contact/success#next");
       };
   	}
