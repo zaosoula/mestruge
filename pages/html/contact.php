@@ -45,20 +45,6 @@
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormNameLabel"); ?></label>
               <input type="text" id="name" name="name" placeholder="<?php $__("contactFormNamePlaceholder"); ?>" class="form-control" required>
             </div>
-            <?php 
-            /**
-             * Honey pot begin
-             */
-            ?>
-                <div class="col-md-6 form-group">
-                  <label class="text-black font-weight-bold" for="name"><?php $__("contactFormNameLabel"); ?></label>
-                  <input type="text" id="lastname" name="lastname" placeholder="<?php $__("contactFormNamePlaceholder"); ?>" class="form-control" autocomplete="off" tabindex="-1">
-                </div>
-              <?php 
-            /**
-             * Honey pot end
-             */
-            ?>
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormSurnameLabel"); ?></label>
               <input type="text" id="surname" name="surname" placeholder="<?php $__("contactFormSurnamePlaceholder"); ?>" class="form-control" required>

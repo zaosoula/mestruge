@@ -67,7 +67,6 @@
 
       if(!isset($sPOST['name']) ||
           !isset($sPOST['surname']) ||
-          !isset($sPOST['lastname']) ||
           !isset($sPOST['phone']) ||
           !isset($sPOST['email']) ||
           !isset($sPOST['checkin_date']) ||
@@ -79,7 +78,6 @@
       }
 
       $name = $sPOST['name']; // required
-      $honeypot = $sPOST['lastname']; // Honeypot
       $surname = $sPOST['surname']; // required
       $phone = $sPOST['phone']; // required
       $email_from = $sPOST['email']; // required
