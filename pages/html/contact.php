@@ -43,22 +43,22 @@
           <div class="row">
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormNameLabel"); ?></label>
-              <input type="text" id="name" name="name" placeholder="<?php $__("contactFormNamePlaceholder"); ?>" class="form-control" required>
+              <input type="text" id="name" name="name" placeholder="<?php $__("contactFormNamePlaceholder"); ?>" class="form-control" required autocomplete="given-name">
             </div>
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="name"><?php $__("contactFormSurnameLabel"); ?></label>
-              <input type="text" id="surname" name="surname" placeholder="<?php $__("contactFormSurnamePlaceholder"); ?>" class="form-control" required>
+              <input type="text" id="surname" name="surname" placeholder="<?php $__("contactFormSurnamePlaceholder"); ?>" class="form-control" required autocomplete="family-name">
             </div>
           </div>
 
           <div class="row">
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="email"><?php $__("contactFormEmailLabel"); ?></label>
-              <input type="email" id="email" name="email" placeholder="<?php $__("contactFormEmailPlaceholder"); ?>" value="<?php echo (!empty($sPOST["email"]))?$sPOST["email"]:null; ?>" class="form-control " required>
+              <input type="email" id="email" name="email" placeholder="<?php $__("contactFormEmailPlaceholder"); ?>" value="<?php echo (!empty($sPOST["email"]))?$sPOST["email"]:null; ?>" class="form-control" required autocomplete="email">
             </div>
             <div class="col-md-6 form-group">
               <label class="text-black font-weight-bold" for="phone"><?php $__("contactFormPhoneLabel"); ?></label>
-              <input type="text" id="phone" name="phone" placeholder="<?php $__("contactFormPhonePlaceholder"); ?>" value="<?php echo (!empty($sPOST["phone"]))?$sPOST["phone"]:null; ?>"class="form-control" required>
+              <input type="text" id="phone" name="phone" placeholder="<?php $__("contactFormPhonePlaceholder"); ?>" value="<?php echo (!empty($sPOST["phone"]))?$sPOST["phone"]:null; ?>"class="form-control" required autocomplete="tel">
             </div>
           </div>
 
