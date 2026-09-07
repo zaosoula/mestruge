@@ -3,10 +3,11 @@ Options -Indexes +FollowSymlinks
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # Redirect to https, except localhost
+  # Redirect to https, except localhost and reverse proxy https
   RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteCond %{HTTP_HOST} !=localhost [NC]
-  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
   RewriteRule ^index(\.html)?(/)?$ index.php?p=home  [L]
   RewriteRule ^contact/success(\.html)?(/)?$ index.php?p=contact&status=success  [L]
